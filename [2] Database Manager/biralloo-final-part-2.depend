@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1491480003 source:c:\users\winnee\desktop\final-biralloo-c\final project-1-biralloo-20170331t124252z-001\biralloo-final-part-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"menu.h"
+
+1491478011 c:\users\winnee\desktop\final-biralloo-c\final project-1-biralloo-20170331t124252z-001\biralloo-final-part-2\menu.h
+

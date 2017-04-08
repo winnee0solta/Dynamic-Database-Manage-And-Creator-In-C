@@ -1,0 +1,8 @@
+ID
+INTEGER
+name
+STRING
+age
+INTEGER
+phone
+INTEGER

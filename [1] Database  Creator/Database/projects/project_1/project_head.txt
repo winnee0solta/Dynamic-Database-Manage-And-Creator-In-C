@@ -1,0 +1,6 @@
+ID
+INTEGER
+name
+STRING
+age
+INTEGER

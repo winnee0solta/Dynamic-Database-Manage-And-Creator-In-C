@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1490945240 source:c:\users\avina\documents\dwit\programming\c training\final project\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1490944194 c:\users\avina\documents\dwit\programming\c training\final project\menu.h
+
+1491481726 source:c:\users\winnee\desktop\final-biralloo-c\final project-1-biralloo-20170331t124252z-001\final project-1-biralloo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	<unistd.h>
+	<windows.h>
+
+1491481726 c:\users\winnee\desktop\final-biralloo-c\final project-1-biralloo-20170331t124252z-001\final project-1-biralloo\menu.h
+
