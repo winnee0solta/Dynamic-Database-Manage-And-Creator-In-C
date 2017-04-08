@@ -1,0 +1,60 @@
+	
+*****************************************[1] Database  Creator***********************************************************
+create_project();
+	Takes project name from the user
+	Takes the last id from list ie from last_id();
+	New id = last id +1
+	Prints the id and name in the file 
+	Uses mkdir() to create a whole new directory for the new project with its id ie project_id
+	Creates the project title.txt file inside the folder created just now from mkdir()
+
+last_id()
+    This function is of int return type and iIt returns the last id value from the projectlist.txt. 
+
+delete_project()
+	First Shows the list of project ie from show_project_list();
+	Takes id to be deleted 
+	Takes the last id from list ie last_id();
+	Compares id and last id 
+	If id < last id then project exists and can be deleted
+	Else the project doesnt exists and can not be deleted
+	When project exists,
+		rmdir() deletes the whole directory
+		Remove the data from the list 
+		
+sign_up();
+	This function is used to sign up an user for the first time as well as to change the password of the user.
+
+sign_in();
+	This function is used to sign in to the project.
+
+show_project_list();
+	This function reads the project listed in the projectlist.txt and displays the data in console.
+
+row_details();
+	This function is called after the create_project(); function ,This function is used to gather the details on the no of row necesssary and type of the row.
+	
+*****************************************[2] Database Manager***********************************************************
+show_project_list();
+	This function reads the project listed in the projectlist.txt and displays the data in console.
+read_row();
+	This  Function reads the no of rows assigned from the [1] Database  Creator program.
+
+last_id();
+	This function is of int return type and iIt returns the last id value from the projectlist.txt .
+	
+add_item();
+	This function is used to add data to the database but in row by row order at a once.
+	In this funciton first a database file is created first then the row items are asked to be entered by the users as per the [1] Database  Creator program defined row title.
+	once the data are read then those data again are stored to the database file for futher use.
+
+show_database();
+	This function reads the project listed in the database  and displays the data in console.
+
+search_database();
+	This function at first shows the database by calling show_database(); function 
+	the user is asked to input the Id of the database to be searched .
+	if the id is valid and is in database then its displayed on the console 
+	else invalid id is shown in the console.
+	
+*****************************************THE END***********************************************************
